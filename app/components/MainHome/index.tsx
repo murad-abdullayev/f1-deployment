@@ -6,8 +6,8 @@ const MainHome = () => {
     <main className="flex-grow text-white relative py-32 px-32 bg-[url(./assets/home-bg.jpg)] bg-cover bg-center bg-no-repeat bg-fixed">
       <h1 className="font-bold text-7xl mb-7">Need to rent a car?</h1>
       <p className="w-[550px]">
-        Formula One Rent A Car's wide fleet of vehicles allows us to provide you
-        with any type of rental car at any time.
+        Formula One Rent A Car&apos;s wide fleet of vehicles allows us to
+        provide you with any type of rental car at any time.
       </p>
       <p className="mt-7">Prices start from</p>
       <div className="mt-7 relative w-fit">

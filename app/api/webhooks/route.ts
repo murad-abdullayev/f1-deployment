@@ -3,7 +3,7 @@ import { headers } from "next/headers";
 import { WebhookEvent } from "@clerk/nextjs/server";
 import prisma from "@/app/db";
 
-export async function GET(req: Request) {
+export async function GET() {
   return new Response("OK!", { status: 200 });
 }
 
@@ -46,7 +46,6 @@ export async function POST(req: Request) {
       status: 400,
     });
   }
-  const { id } = evt.data;
   const eventType = evt.type;
 
   switch (eventType) {

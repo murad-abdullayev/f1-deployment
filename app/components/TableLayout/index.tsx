@@ -1,6 +1,6 @@
 "use client";
 
-import React, { PropsWithChildren, use, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Dialog,
   DialogBackdrop,
@@ -33,13 +33,6 @@ const sortOptions = [
   { name: "Newest", slug: SortOrder.DATE_DESC, current: false },
   { name: "Price: Low to High", slug: SortOrder.PRICE_ASC, current: false },
   { name: "Price: High to Low", slug: SortOrder.PRICE_DESC, current: false },
-];
-const subCategories = [
-  { name: "Totes", href: "#" },
-  { name: "Backpacks", href: "#" },
-  { name: "Travel Bags", href: "#" },
-  { name: "Hip Bags", href: "#" },
-  { name: "Laptop Sleeves", href: "#" },
 ];
 // const filters = [
 //   {
